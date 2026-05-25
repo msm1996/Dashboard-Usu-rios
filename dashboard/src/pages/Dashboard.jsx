@@ -9,19 +9,56 @@ import ChartUsers from "../components/ChartUsers";
 
 const Layout = styled.div`
   display: flex;
-  height: 100vh;
-  
+  min-height: 100vh;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Content = styled.div`
   flex: 1;
   background: linear-gradient(135deg, #1f4e79, #163d5c);
   overflow-y: auto;
+  width: 100%;
 `;
 
 const TopBar = styled.div`
-padding: 20px;
-  
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+`;
+
+const Stats = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    font-size: 16px;
+    gap: 10px;
+  }
+`;
+
+const ChartBox = styled.div`
+  padding: 20px;
+  background: white;
+  margin: 0 20px;
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    margin: 10px;
+    padding: 12px;
+  }
 `;
 
 const CardsContainer = styled.div`
@@ -29,6 +66,11 @@ const CardsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+    gap: 12px;
+  }
 `;
 
 const Loading = styled.p`

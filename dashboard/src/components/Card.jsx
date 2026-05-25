@@ -7,12 +7,37 @@ const Box = styled.div`
   border-radius: 16px;
   text-align: center;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   transition: 0.3s;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 
+  width: 100%;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   &:hover {
-    transform: translateY(-8px) scale(1.02);
+    transform: translateY(-6px) scale(1.02);
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 16px;
+    font-size: 16px;
+  }
+`;
+
+const Avatar = styled.img`
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    width: 70px;
+    height: 70px;
   }
 `;
 
@@ -21,7 +46,7 @@ const LevelBadge = styled.span`
   margin-top: 10px;
   padding: 6px 12px;
   border-radius: 8px;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bold;
   color: white;
 
@@ -31,7 +56,13 @@ const LevelBadge = styled.span`
       : level === "Intermediário"
       ? "#ff9800"
       : "#f44336"};
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
 `;
+
 
 function Card({ id, name, email, phone, company, level }) {
   const navigate = useNavigate();

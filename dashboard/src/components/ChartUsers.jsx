@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import {
   BarChart,
   Bar,
@@ -8,17 +9,35 @@ import {
   CartesianGrid,
 } from "recharts";
 
+const Box = styled.div`
+  width: 100%;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    height: 250px;
+    padding: 12px;
+  }
+`;
+
+const Title = styled.h3`
+  margin-bottom: 20px;
+  font-size: 18px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+`;
+
 function ChartUsers({ data }) {
   return (
-    <div style={{
-      height: 300,
-      background: "white",
-      borderRadius: "10px",
-      padding: "20px"
-    }}>
-      <h3 style={{ marginBottom: "20px" }}>
-        📊 Distribuição de Níveis
-      </h3>
+    <Box>
+      <Title>📊 Distribuição de Níveis</Title>
 
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
@@ -29,7 +48,7 @@ function ChartUsers({ data }) {
           <Bar dataKey="value" fill="#6c63ff" radius={[10, 10, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
-    </div>
+    </Box>
   );
 }
 
