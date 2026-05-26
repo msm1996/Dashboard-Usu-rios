@@ -59,7 +59,7 @@ const LevelBadge = styled.span`
 
   @media (max-width: 768px) {
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 5px 11px;
   }
 `;
 

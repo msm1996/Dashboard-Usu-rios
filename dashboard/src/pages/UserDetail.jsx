@@ -16,7 +16,7 @@ const Card = styled.div`
   display: flex;
   gap: 40px;
   background: #6c63ff;
-  padding: 40px;
+  padding: 41px;
   border-radius: 16px;
   width: 700px;
   color: white;

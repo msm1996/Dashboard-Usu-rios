@@ -15,7 +15,7 @@ const Input = styled.input`
 
   @media (max-width: 768px) {
     font-size: 16px;
-    padding: 10px;
+    padding: 11px;
   }
 
   @media (max-width: 480px) {

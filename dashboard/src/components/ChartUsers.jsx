@@ -30,7 +30,7 @@ const Title = styled.h3`
 
   @media (max-width: 768px) {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
 `;
 

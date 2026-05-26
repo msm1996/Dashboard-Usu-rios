@@ -19,7 +19,7 @@ const Side = styled.div`
     width: 100%;
     height: auto;
     font-size: 22px;
-    padding: 12px;
+    padding: 13px;
   }
 `;
 
