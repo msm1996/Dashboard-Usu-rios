@@ -1,73 +1,105 @@
-<h1> 📊 Dashboard de Usuários</h1>
-<h2>Projeto desenvolvido com React.js para gerenciamento e visualização de usuários, contendo gráficos, navegação entre páginas e classificação de níveis dos usuários.
-  
-A aplicação consome dados de uma API REST e exibe informações de forma dinâmica e responsiva.</h2>
+# 📊 Dashboard de Usuários
 
-<br>
+Aplicação Front-End desenvolvida com **React.js** para visualização e gerenciamento de informações de usuários por meio de uma interface dinâmica e responsiva.
 
-<h1>✨ Funcionalidades</h1>
-<h2>- 📥 Consumo de API REST
-  <br>
+O projeto consome dados de uma **API REST** utilizando Axios e apresenta os usuários em um dashboard com busca, navegação entre páginas, gráficos e classificação por níveis.
+
+---
+
+## 📸 Preview
+
+![Dashboard de Usuários](https://github.com/msm1996/Dashboard-Usu-rios/blob/main/dashboard/img/Captura%20de%20tela%202026-04-19%20153952.png?raw=true)
+
+---
+
+## 🚀 Sobre o projeto
+
+O **Dashboard de Usuários** foi desenvolvido para praticar conceitos importantes do desenvolvimento Front-End com React.
+
+A aplicação busca informações de usuários através de uma API REST e organiza esses dados em uma interface visual, permitindo consultar usuários, visualizar informações individuais e acompanhar dados através de gráficos.
+
+O projeto também utiliza uma classificação por níveis:
+
+- 🟢 Iniciante
+- 🟡 Intermediário
+- 🔵 Avançado
+
+---
+
+## ✨ Funcionalidades
+
+- 📥 Consumo de API REST
 - 🔍 Busca dinâmica de usuários
-  <br>
 - 📊 Dashboard com gráficos
-  <br>
-- 👤 Página de detalhes do usuário
-  <br>
+- 👤 Visualização de detalhes do usuário
 - 🔄 Navegação entre páginas
-  <br>
-- 🎨 Interface responsiva
-  <br>
-  <br>
-- 📈 Classificação por níveis:
-  <br>
-  - Iniciante
-  <br>
-  - Intermediário
-  <br>
-  - Avançado</h2>
+- 📈 Classificação de usuários por níveis
+- 📱 Interface responsiva
+- ⚡ Renderização dinâmica dos dados
 
-  <br>
+---
 
-<h1>🛠 Tecnologias utilizadas</h1>
-<h2>- React.js
-- JavaScript
-  <br>
-- Axios
-  <br>
-- Styled-components
-  <br>
-- Recharts
-  <br>
-- React Router DOM
-  <br>
-- API REST</h2>
+## 🛠 Tecnologias utilizadas
 
-<br>
+- **React.js** — construção da interface e componentização
+- **JavaScript** — lógica e manipulação dos dados
+- **Axios** — consumo da API REST
+- **Styled Components** — estilização dos componentes
+- **Recharts** — criação e visualização dos gráficos
+- **React Router DOM** — navegação entre páginas
+- **API REST** — obtenção dos dados utilizados pela aplicação
 
-<h1>🧠 Aprendizados</h1>
-<h2>Neste projeto pratiquei:
-  <br>
-<br>
-- Consumo de APIs com Axios
- <br>
-- Componentização no React
-  <br>
+---
+
+## 🧠 O que pratiquei neste projeto
+
+Durante o desenvolvimento deste projeto, pratiquei conceitos importantes do ecossistema React, como:
+
+- Componentização
 - Gerenciamento de estado
-  <br>
-- Renderização dinâmica
-  <br>
-- Navegação entre páginas
-  <br>
+- Consumo de APIs com Axios
+- Renderização dinâmica de dados
+- Navegação com React Router
 - Criação de dashboards
-  <br>
-- Manipulação de gráficos
-  <br>
-- Organização de aplicações React
-  <br>
-- Responsividade</h2>
+- Manipulação e exibição de gráficos
+- Organização de uma aplicação React
+- Criação de interfaces responsivas
 
-<br>
+---
 
-<h2>📸 Imagem do projeto:</h2> 
-<img src= https://github.com/msm1996/Dashboard-Usu-rios/blob/main/dashboard/img/Captura%20de%20tela%202026-04-19%20153952.png?raw=true>
+## 💻 Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/msm1996/Dashboard-Usu-rios.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd Dashboard-Usu-rios
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Myke Santana Martins**
+
+Desenvolvedor Front-End em formação, criando projetos com foco em **React.js, JavaScript e integração com APIs REST**.
+
+- GitHub: https://github.com/MykeMartins96
+- LinkedIn: https://www.linkedin.com/in/myke-santana-martins
